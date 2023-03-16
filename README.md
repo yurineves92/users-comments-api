@@ -12,7 +12,7 @@ composer install
 After that.
 
 ```
-copy .env.example for .env and configuration database(MySQL, Postgres or Sqlite)
+copy .env.example for .env and configuration database(MySQL, Postgres or SQlite)
 ```
 Run.
 ```
@@ -23,7 +23,8 @@ To create the system database, with the .env file pre-configured with the databa
 ## Application features
 
 - Authentication and authorization (Users) 
-- List, create, update e delete commments for your user. (Comments)
+- List, create, update e delete commment for your user. (Comments)
+- Using sanctum for authentication for SPAs.
 
 ## Running tests
 
